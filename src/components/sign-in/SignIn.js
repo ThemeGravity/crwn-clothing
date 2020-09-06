@@ -64,7 +64,7 @@ class SingIn extends Component {
             required/>
           <div className="buttons">
             <CustomButton type="submit">Sing in</CustomButton>
-            <CustomButton isGoogleSignIn onClick={signInWithGoogle}>Sing in with Google</CustomButton>
+            <CustomButton isGoogleSignIn onClick={signInWithGoogle} type='button'>Sing in with Google</CustomButton>
           </div>
         </form>
       </div>
